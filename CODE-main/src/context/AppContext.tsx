@@ -59,7 +59,7 @@ const dummyTasks: Task[] = [
     title: 'Design Homepage Mockup',
     description: 'Create initial design mockups for the new homepage layout',
     assignee: 'Alex Johnson',
-    dueDate: '2024-02-15',
+    dueDate: '2025-10-15',
     status: 'In Progress',
     projectId: '1'
   },
@@ -69,7 +69,7 @@ const dummyTasks: Task[] = [
     description: 'Configure development tools and environment for the project',
     assignee: 'Sarah Chen',
     dueDate: '2024-02-10',
-    status: 'Done',
+    status: 'In Progress',
     projectId: '1'
   }
 ];
