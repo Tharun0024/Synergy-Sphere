@@ -29,4 +29,5 @@ export interface ChatMessage {
   message: string;
   timestamp: string;
   projectId: string;
+  privateChatWith?: string; // optional for private messages
 }
