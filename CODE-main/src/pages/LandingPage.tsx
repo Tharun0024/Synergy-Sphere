@@ -84,10 +84,6 @@ const LandingPage: React.FC = () => {
         </p>
       </header>
 
-      <div className="w-screen mb-12">
-        <Spline scene="https://prod.spline.design/uULgriK-HLNYzyjz/scene.splinecode" />
-      </div>
-
 
 
 
