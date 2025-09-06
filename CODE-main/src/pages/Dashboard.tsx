@@ -4,6 +4,10 @@ import { Plus, Calendar, ArrowRight } from 'lucide-react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import { useApp } from '../context/AppContext';
+import Spline from '@splinetool/react-spline';
+
+
+
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
@@ -29,6 +33,8 @@ const Dashboard: React.FC = () => {
   return (
     <Layout>
       <Header />
+
+      
       
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

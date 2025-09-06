@@ -1,34 +1,35 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Users, Target, Zap, MessageCircle } from 'lucide-react';
+import Spline from '@splinetool/react-spline';
 
 const features = [
   {
     icon: Users,
     title: 'Seamless Team Collaboration',
     description:
-      'Communicate and collaborate with your team efficiently in real-time.',
+      'Communicate and collaborate with your team efficiently in real-time. SynergySphere offers threaded project-specific discussions, document sharing, and notifications so your team stays aligned and informed. Work together smoothly across devices while making sure everyone is on the same page, minimizing communication gaps and boosting team synergy.',
     img: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
   },
   {
     icon: Target,
     title: 'Effective Project Management',
     description:
-      'Organize projects, track tasks, and maintain deadlines effortlessly.',
+      'Organize projects, track tasks, and maintain deadlines effortlessly with SynergySphere. Manage all your projects in one place, assign tasks clearly with deadlines and statuses, and get a real-time overview of progress to ensure nothing slips through the cracks. Intuitive visual tools help you stay on schedule and maintain productivity from start to finish.',
     img: 'https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=800&q=80',
   },
   {
     icon: Zap,
     title: 'Boost Your Productivity',
     description:
-      'Streamline workflows and optimize your team’s output and focus.',
+      'Streamline workflows and optimize your team’s output and focus. With task assignments, clear deadlines, and progress tracking, SynergySphere helps teams stay on track and avoid surprises. Automated notifications and intuitive visualizations ensure everyone knows what to do next, reducing friction and increasing overall productivity.If you want, this can be further expanded or included as sections alongside the other content for SynergySphere.',
     img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
   },
   {
     icon: MessageCircle,
     title: 'Integrated Project Workspace',
     description:
-      'Chat and share ideas in a simple, collaborative workspace for each project.',
+      'Chat and share ideas in a simple, collaborative workspace built for each project. SynergySphere provides a dedicated environment where team members can communicate in real-time, share files, and keep all discussions and decisions organized by project—making collaboration seamless and efficient.',
     img: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80',
   },
 ];
@@ -82,6 +83,13 @@ const LandingPage: React.FC = () => {
           A modern team collaboration and project management tool inspired by Trello &amp; Asana.
         </p>
       </header>
+
+      <div className="w-screen mb-12">
+        <Spline scene="https://prod.spline.design/uULgriK-HLNYzyjz/scene.splinecode" />
+      </div>
+
+
+
 
       {/* Features Sections */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16 mb-32">
